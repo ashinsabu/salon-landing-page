@@ -1,5 +1,8 @@
 # summary
 
+Landing page for a generic salon fully created using HTML,CSS and Javascript with animations and usage of the Intersection Observer Javascript API.
+
+
 # view the page
 https://ashinsabu.github.io/salon-landing-page/
 
