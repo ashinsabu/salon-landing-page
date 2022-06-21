@@ -198,8 +198,6 @@ img {
 
 .secondary-content{
     background-color: rgb(32,26,26);
-    padding-left: 10vw;
-    padding-right: 10vw;
     text-align: center;
 }
 
@@ -220,11 +218,15 @@ img {
     width: 6rem;
 }
 .our-story > h1{
+    padding-left: 10vw;
+    padding-right: 10vw;
     padding-top: 2em;
     font-size: 48px;
     color: white;
 }
 .story-text{
+    padding-left: 10vw;
+    padding-right: 10vw;
     margin-top: 32px;
     font-size: 18px;
     color: #CFCFD0;
@@ -236,12 +238,49 @@ img {
     padding-bottom: 8em;
 }
 .our-gallery > h1{
-    padding-top: 1em;
     font-size: 48px;
     color: white;
 }
 .gallery-grid{
     margin-top: 64px;
+    padding-bottom: 128px;
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    grid-template-rows: 300px 150px 450px;
+    gap: 4px;
+}
+.gallery-grid >img{
+    object-fit: cover; 
+}
+.img1{
+    height: 100%;
+    max-width: 100%;
+    grid-column: 1/3;
+    grid-row: 1/2;
+}
+.img2{
+    height: 100%;
+    max-width: 100%;
+    grid-column: 3/5;
+    grid-row: 1/2;
+}
+.img3{
+    height: 100%;
+    max-width: 100%;
+    grid-column: 1/5;
+    grid-row: 2/4
+}
+.img4{
+    width: 100%;
+    max-height: 100%;
+    grid-column: 5/9;
+    grid-row: 1/3;
+}
+.img5{
+    width: 100%;
+    max-height: 100%;
+    grid-column: 5/9;
+    grid-row: 3/4;
 }
 .third-content{
     background-color: #FCF2E4;
