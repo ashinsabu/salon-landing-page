@@ -224,29 +224,104 @@ img {
     margin-top: 16rem;
     color: white;
 }
-
+.story-text{
+    margin-top: 32px;
+    font-size: 18px;
+    color: #CFCFD0;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    padding-bottom: 64px;;
+}
+.third-content{
+    transform: translateY(-120px);
+    background-color: #FCF2E4;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    text-align: center;
+}
+.third-content > h1{
+    font-size: 48px;
+    padding-top: 6rem;
+}
 .vision-grid{
     padding: 4em 0;
     display: grid;
     align-items: center;
     grid-template-columns: minmax(1em,1fr) repeat(2,minmax(1em,1fr));
-    color: white;
+    color: rgba(0, 0, 0, 0.849);
 }
 .vision-grid h1{
     font-size: 42px;
 }
 
 .vision-grid p{
-    color: #CFCFD0;
+    color: rgba(0, 0, 0, 0.595);
 }
 .from-left{
     text-align: right;
     grid-column: 1 / 2;
+    transform: translateX(-20%);
+    opacity: 0;
 }
 .middle{
     grid-column: 2 / 3;
 }
 .from-right{
+    text-align: center;
+    grid-column: 3 / 4;
+    transform: translateX(20%);
+    opacity: 0;
+}
+.from-left,
+.from-right {
+    transition: transform 500ms ease-in, opacity 500ms ease-in;
+}
+
+.from-left.appear,
+.from-right.appear {
+    transform: translateX(0);
+    opacity: 1;
+}
+
+.vision-grid2{
+    padding: 4em 0;
+    display: grid;
+    align-items: center;
+    grid-template-columns: minmax(1em,1fr) repeat(2,minmax(1em,1fr));
+    color: rgba(0, 0, 0, 0.849);
+}
+.vision-grid2 h1{
+    font-size: 42px;
+}
+
+.vision-grid2 p{
+    color: rgba(0, 0, 0, 0.595);
+}
+.from-left2{
+    text-align: center;
+    grid-column: 1 / 2;
+    transform: translateX(-40%);
+    opacity: 0;
+}
+.middle2{
+    grid-column: 2 / 3;
+}
+.from-right2{
     text-align: left;
     grid-column: 3 / 4;
+    transform: translateX(40%);
+    opacity: 0;
+}
+.from-left2,
+.from-right2 {
+    transition: transform 500ms ease-in, opacity 500ms ease-in;
+}
+
+.from-left2.appear,
+.from-right2.appear {
+    transform: translateX(0);
+    opacity: 1;
 }
