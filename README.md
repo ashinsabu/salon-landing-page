@@ -13,3 +13,6 @@ https://www.freepik.com/free-photo/handsome-man-barber-shop-styling-hair_7435510
 https://www.freepik.com/free-photo/hairstylist-client-taking-salon_1957243.htm
 https://www.freepik.com/free-photo/man-barbershop-salon-doing-haircut-beard-trim_7435495.htm
 https://www.freepik.com/free-photo/hairdresser-colored-hair-her-client-hair-salon_5912225.htm
+
+Icons:
+https://icons.getbootstrap.com/
