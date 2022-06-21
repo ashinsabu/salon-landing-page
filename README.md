@@ -19,3 +19,6 @@ https://www.freepik.com/free-photo/hairdresser-colored-hair-her-client-hair-salo
 
 Icons:
 https://icons.getbootstrap.com/
+
+# TODO
+> Make the page responsive for mobile.
