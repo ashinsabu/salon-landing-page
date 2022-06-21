@@ -31,7 +31,7 @@ img {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 32px;
+    padding: 16px;
     margin-right: 10vw;
     margin-left: 10vw;
 }
@@ -65,4 +65,72 @@ img {
     background-repeat: no-repeat;
     background-position: right;
     height: 420px;
+    padding-top: 64px;
+    margin-left: 11vw;
+    display: grid;
+    grid-template-columns: 3fr 4fr;
 }
+.hero-area h1{
+    font-size: 48px;
+    grid-column: 1 / 2;
+}
+.hero-area p{
+    grid-column: 1 / 2;
+}
+.hero-area .book-button-container{
+    grid-column: 1 / 2;
+}
+
+/* book button and its animations */
+
+.book-button-container > button{
+    position: relative;
+    border: 0;
+    display: inline-block;
+    width: 10rem;
+    height: auto;
+    cursor: pointer;
+    outline: none;
+    vertical-align: middle;
+    background: transparent;
+}
+.book-button-text{
+    position: absolute;
+    inset: 0;
+    padding: 0.9rem 0;
+    margin-left: 0;
+    color: white;
+    line-height: 1.6;
+    text-align: center;
+    transition: all 0.4s ease-in-out;
+}
+
+.square{
+    position:relative;
+    display: block;
+    margin: 0;
+    width: 5rem;
+    height: 3rem;
+    background-color: #CEA46F;
+    transition: all 0.4s ease-in-out;
+}
+.icon{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    background: white;
+}
+
+
+.book-button-container > button:hover .square{
+    width: 100%;
+}
+.book-button-container > button:hover .arrow{
+    background: white;
+    transform: translateX(1rem);
+}
+/* book button and its animations */
+
+
+
